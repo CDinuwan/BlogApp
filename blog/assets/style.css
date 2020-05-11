@@ -1,17 +1,61 @@
-p {
-     font-family: monospace;
-     font-size: 20px;
-     color: gray;
+body{
+  background-color: #0f121f;
+  background-repeat-y: no-repeat;
+  color:fff;
 }
-a {
-     color: blue;
-     font-weight: bold;
-     text-decoration: none;
-     font-size: 30px;
-     font-family: sans-serif;
+
+body *{
+  font-family: Ubuntu;
 }
-h1 {
-     font-family: sans-serif;
-     font-size: 30px;
-     color: blue;
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
+  margin: 0;
 }
+
+a,a:hover,a:visited{
+  color :#fff;
+  text-decoration: none;
+}
+
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+div.wrapper h1{
+  text-align: center;
+  margin: 100px auto;
+  font-size: 2.4em;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 0;
+}
+
+nav{
+  justify-self: end;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav button{
+  background: none;
+  color: #fff;
+  cursor:pointer;
+  boader: 0;
+  font-size: 1em;
+}
+
+.articles{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.article
